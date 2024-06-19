@@ -12,7 +12,8 @@ Img_to_PDF_Converter is a Python-based GUI utility for converting images to PDF 
 # Requirements
 >Libraries:
 - Pillow
-- reportlab
+- Tkinter
+- PIL
 
 # Overview
 - Import Libraries: Import the necessary modules from the Python Imaging Library (PIL) and the standard library.
@@ -20,3 +21,8 @@ Img_to_PDF_Converter is a Python-based GUI utility for converting images to PDF 
 - Image Collection: Collect all images from the input directory and convert them to RGB format.
 - Save as PDF: Save the collected images as a single PDF file.
 - Command-line Interface: Provide a simple command-line interface for users to specify input and output paths.
+
+  # Buttons
+- "Select Images": Opens the file dialog to select images.
+- "Select PDF": Opens the file dialog to specify the PDF file name.
+- "Convert": Initiates the conversion process by calling images_to_pdf with the selected images and PDF file name.
